@@ -15,4 +15,4 @@ Chạy thử cho kết quả sau (A/B nghĩa là mảng ngẫu nhiên A phần t
 |parallel merge sort|58492.3|8882.51|4536.26|4062.23|
 
 
-Thực tế cho thấy, với số phần tử lớn, parallel merge sort sẽ chạy nhanh hơn, nhưng với số phần tử nhỏ, merge sort lại ổn hơn nhiều, lí do là vì việc tạo, quản lí các luồng rất tốn tài nguyên.
+Thực tế cho thấy, với số phần tử lớn, parallel merge sort sẽ chạy nhanh hơn, nhưng với số phần tử nhỏ, merge sort lại ổn hơn nhiều, lí do là vì việc tạo, quản lí các luồng rất tốn thời gian.
